@@ -1,26 +1,39 @@
-# quarto-duke-cct
+# quarto-analytics-template
 
-Hello, Quarto: A World of Possibilities (for Reproducible Publishing) for Duke CCT (2023-02-15)
+Hello, Quarto: A World of Possibilities (for Reproducible Publishing)
 
 ## Setup notes
 
-- R 4.2.2 (2022-10-31) -- "Innocent and Trusting"
-- RStudio 2022.12.0+353 "Elsbeth Geranium"
-- Quarto 1.2.335
-- Packages: tidyverse, palmerpenguins, gt
+- Access to [q-rap FIN7028 financial time series workspace](https://sso.posit.cloud/q-rap?redirect=https%3A%2F%2Fposit.cloud%2Fspaces%2F211210%2Fjoin%3Faccess_code%3D0jJzcGhdja1HwVVMRYY-FZRlTIg8XNyvt7XzPw7g)
+- Packages: tidyverse, plotly, tsfe
+
+### To get you started with quarto
+
+* [R Markdown Quick Tour](https://rmarkdown.rstudio.com/authoring_quick_tour.html)
+* [Introduction to R Markdown](https://rmarkdown.rstudio.com/lesson-1.html)
+* [R Markdown Cheatsheet](https://www.rstudio.com/wp-content/uploads/2016/03/rmarkdown-cheatsheet-2.0.pdf)
+- Create a simple Quarto document called `index.qmd` and edit it using the RStudio Visual Editor with sections 
 
 ## Demo
 
 ### Documents
-
-- Create a simple Quarto document called `index.qmd` and edit it using the RStudio Visual Editor with sections Data, Species, and Penguins.
-- Add code chunk options:
+1. Create a simple Quarto document called `index.qmd` and edit it using the RStudio Visual Editor with sections Introduction and Critique, Data amd Methods, Results, and Discussions
+2. Add code chunk options:
   - `echo: false` in `execute` in the YAML
   - `code-fold`
   - `fig-alt`
   - teaching tip: `echo: fenced`
-- Add a figure and a table and cross reference them
-- Add a citation
+3. Add a figure and a table and cross reference them
+3. Add a citation
+
+> **Tip**: It is good practice to HIT and KNIT every time you do a new piece of code or text chunk
+
+### To get you started with R markdown
+
+* [R Markdown Quick Tour](https://rmarkdown.rstudio.com/authoring_quick_tour.html)
+* [Introduction to R Markdown](https://rmarkdown.rstudio.com/lesson-1.html)
+* [R Markdown Cheatsheet](https://www.rstudio.com/wp-content/uploads/2016/03/rmarkdown-cheatsheet-2.0.pdf)
+- Create a simple Quarto document called `index.qmd` and edit it using the RStudio Visual Editor with sections 
 
 ### Slides
 
@@ -41,7 +54,7 @@ project:
   type: website
 
 website:
-  title: "Hello Quarto - Duke CCT"
+  title: "Hello Quarto - Website"
   navbar:
     left:
       - index.qmd
