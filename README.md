@@ -64,7 +64,7 @@ website:
 
 ## AI policy
 
-If you use AI (for example ChatGPT, GPT-3, Codex etc ..) in this class, you **must** create a section in your Appendix entitled **My AI use explained**, see details below.
+If you use AI (for example ChatGPT, GPT-3, Codex etc ..) in this class, you **must** create a section in your Appendix entitled **My AI use explained**, see details below.  Students' most use GitHub for their project, and misuse of AI will be presumed if students' fail to stage-committ-push regular updates before they submit their final project.
 
 Be aware of the limits of ChatGPT:
 
