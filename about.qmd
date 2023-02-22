@@ -2,4 +2,4 @@
 title: "About"
 ---
 
-This was created during a Duke CCT Learning Experience on Feb 15, 2023.
+This was created during a Queen's Management School learning experience

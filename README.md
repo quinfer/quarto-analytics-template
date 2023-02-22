@@ -2,16 +2,22 @@
 
 Hello, Quarto: A World of Possibilities (for Reproducible Publishing)
 
-## Setup notes
+## Setup notes for FIN7028
 
-- Access to [q-rap FIN7028 financial time series workspace](https://sso.posit.cloud/q-rap?redirect=https%3A%2F%2Fposit.cloud%2Fspaces%2F211210%2Fjoin%3Faccess_code%3D0jJzcGhdja1HwVVMRYY-FZRlTIg8XNyvt7XzPw7g)
+- Access to [Q-RaP FIN7028 financial time series workspace](https://sso.posit.cloud/q-rap?redirect=https%3A%2F%2Fposit.cloud%2Fspaces%2F211210%2Fjoin%3Faccess_code%3D0jJzcGhdja1HwVVMRYY-FZRlTIg8XNyvt7XzPw7g)
 - Packages: tidyverse, plotly, tsfe
+
+## Setup notes for FIN7030
+
+- Access to [Q-RaP FIN7030 financial time series workspace](https://sso.posit.cloud/q-rap?redirect=https%3A%2F%2Fposit.cloud%2Fspaces%2F211210%2Fjoin%3Faccess_code%3D0jJzcGhdja1HwVVMRYY-FZRlTIg8XNyvt7XzPw7g)
+- Packages: tidyverse, plotly, fml
+- A working OpenAI API key
 
 ### To get you started with quarto
 
-* [R Markdown Quick Tour](https://rmarkdown.rstudio.com/authoring_quick_tour.html)
-* [Introduction to R Markdown](https://rmarkdown.rstudio.com/lesson-1.html)
-* [R Markdown Cheatsheet](https://www.rstudio.com/wp-content/uploads/2016/03/rmarkdown-cheatsheet-2.0.pdf)
+* [Quarto Introduction Tutorial](https://quarto.org/docs/get-started/hello/rstudio.html)
+* [A Quarto tip a day](https://mine-cetinkaya-rundel.github.io/quarto-tip-a-day/)
+* [Quarto Cheatsheet](./Quarto_Cheat_Sheet.pdf)
 - Create a simple Quarto document called `index.qmd` and edit it using the RStudio Visual Editor with sections 
 
 ## Demo
@@ -27,13 +33,6 @@ Hello, Quarto: A World of Possibilities (for Reproducible Publishing)
 3. Add a citation
 
 > **Tip**: It is good practice to HIT and KNIT every time you do a new piece of code or text chunk
-
-### To get you started with R markdown
-
-* [R Markdown Quick Tour](https://rmarkdown.rstudio.com/authoring_quick_tour.html)
-* [Introduction to R Markdown](https://rmarkdown.rstudio.com/lesson-1.html)
-* [R Markdown Cheatsheet](https://www.rstudio.com/wp-content/uploads/2016/03/rmarkdown-cheatsheet-2.0.pdf)
-- Create a simple Quarto document called `index.qmd` and edit it using the RStudio Visual Editor with sections 
 
 ### Slides
 
@@ -62,3 +61,14 @@ website:
 ```
 
 - Render and then `publish quarto`
+
+## AI policy
+
+If you use AI (for example ChatGPT, GPT-3, Codex etc ..) in this class, you **must** create a section in your Appendix entitled **My AI use explained**, see details below.
+
+Be aware of the limits of ChatGPT:
+
+* If you provide minimum effort prompts, you will get low-quality results. You'll need to refine your prompts so you can get good outcomes. This will take work.
+* Don't trust anything it says. If it gives you several facts, assume it is wrong unless you know the answer or can check in with another source. You will be responsible for any errors or omissions the tools provide. It works best for topics you understand.
+* AI is a tool, but one that you should acknowledge using. Please include a paragraph at the end of the assignment that uses AI explaining what you used the AI for and what prompts you used to get results. Failure to do so is a violation of academic honesty policies.
+* Be thoughtful about when this tool is useful. Don't use it if it isn't appropriate for the case or circumstance.
